@@ -21,4 +21,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('odp.urls')),
     path('', include('about.urls')),
+    path('', include('transparency.urls')),
 ]

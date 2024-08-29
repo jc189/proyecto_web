@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'odp.apps.OdpConfig',
     'about.apps.AboutConfig',
+    'transparency.apps.TransparencyConfig',
 ]
 
 MIDDLEWARE = [
