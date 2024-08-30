@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'odp.apps.OdpConfig',
     'about.apps.AboutConfig',
     'transparency.apps.TransparencyConfig',
+    'services.apps.ServicesConfig',
 ]
 
 MIDDLEWARE = [

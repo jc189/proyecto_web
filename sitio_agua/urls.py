@@ -22,4 +22,5 @@ urlpatterns = [
     path('', include('odp.urls')),
     path('', include('about.urls')),
     path('', include('transparency.urls')),
+    path('', include('services.urls')),
 ]
