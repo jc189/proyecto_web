@@ -13,29 +13,29 @@
 	    <div class="collapse navbar-collapse" id="navbarNavDropdown">
 	      <ul class="navbar-nav">
 	        <li class="nav-item">
-	          <a class="nav-link active" aria-current="page" href="index">Inicio</a>
+	          <a class="nav-link active" aria-current="page" href="{% url 'index' %}">Inicio</a>
 	        </li>
 	        <li class="nav-item dropdown">
 	          <a class="nav-link dropdown-toggle" href="about" role="button" data-bs-toggle="dropdown" aria-expanded="false">
 	            Quienes Somos
 	          </a>
 	          <ul class="dropdown-menu">
-	            <li><a class="dropdown-item" href="about/titular">Titular</a></li>
-	            <li><a class="dropdown-item" href="directorio">Directorio</a></li>
-	            <li><a class="dropdown-item" href="mision_vision">Mision y Vision</a></li>
-	            <li><a class="dropdown-item" href="valores">Valores</a></li>
-	            <li><a class="dropdown-item" href="marco_juridico">Marco Juridico</a></li>
+	            <li><a class="dropdown-item" href="{% url 'titular' %}">Titular</a></li>
+	            <li><a class="dropdown-item" href="{% url 'directorio' %}">Directorio</a></li>
+	            <li><a class="dropdown-item" href="{% url 'mision_vision' %}">Mision y Vision</a></li>
+	            <li><a class="dropdown-item" href="{% url 'valores' %}">Valores</a></li>
+	            <li><a class="dropdown-item" href="{% url 'marco_juridico' %}">Marco Juridico</a></li>
 	          </ul>
 	        <li class="nav-item dropdown">
 	          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
 	            Tramites y Servicios
 	          </a>
 	          <ul class="dropdown-menu">
-	            <li><a class="dropdown-item" href="#">Requisitos</a></li>
-	            <li><a class="dropdown-item" href="#">Solicitud de Pipas</a></li>
-	            <li><a class="dropdown-item" href="#">Reporte de fugas</a></li>
-	            <li><a class="dropdown-item" href="#">Reporte de alcantarillado</a></li>
-	            <li><a class="dropdown-item" href="#">Quejas y Sugerencias</a></li>
+	            <li><a class="dropdown-item" href="{% url 'requisitos' %}">Requisitos</a></li>
+	            <li><a class="dropdown-item" href="{% url 'solicitud_pipas' %}">Solicitud de Pipas</a></li>
+	            <li><a class="dropdown-item" href="{% url 'reporte_fugas' %}">Reporte de fugas</a></li>
+	            <li><a class="dropdown-item" href="{% url 'reporte_alcantarillado' %}">Reporte de alcantarillado</a></li>
+	            <li><a class="dropdown-item" href="{% url 'quejas_sugerencias' %}">Quejas y Sugerencias</a></li>
 	          </ul>
 	        </li>
 	        <li class="nav-item dropdown">
@@ -43,14 +43,14 @@
 	            Transparencia
 	          </a>
 	          <ul class="dropdown-menu">
-	            <li><a class="dropdown-item" href="#">Planeancion</a></li>
-	            <li><a class="dropdown-item" href="#">Conac</a></li>
-	            <li><a class="dropdown-item" href="#">Sevac</a></li>
-	            <li><a class="dropdown-item" href="#">Cuenta publica</a></li>
-	            <li><a class="dropdown-item" href="#">Pada</a></li>
-	            <li><a class="dropdown-item" href="#">Aviso de privacidad</a></li>
-	            <li><a class="dropdown-item" href="#">Gaceta municipal</a></li>
-	            <li><a class="dropdown-item" href="#">Mejora regulatoria</a></li>
+	            <li><a class="dropdown-item" href="{% url 'planeacion' %}">Planeacion</a></li>
+	            <li><a class="dropdown-item" href="{% url 'conac' %}">Conac</a></li>
+	            <li><a class="dropdown-item" href="{% url 'sevac' %}">Sevac</a></li>
+	            <li><a class="dropdown-item" href="{% url 'cuenta_publica' %}">Cuenta publica</a></li>
+	            <li><a class="dropdown-item" href="{% url 'pada' %}">Pada</a></li>
+	            <li><a class="dropdown-item" href="{% url 'aviso_privacidad' %}">Aviso de privacidad</a></li>
+	            <li><a class="dropdown-item" href="{% url 'gaceta' %}">Gaceta municipal</a></li>
+	            <li><a class="dropdown-item" href="{% url 'mejora' %}">Mejora regulatoria</a></li>
 	          </ul>
 	        </li>
 	        <li class="nav-item">
